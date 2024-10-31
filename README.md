@@ -8,7 +8,6 @@
 -   [기능](#기능)
 -   [설치 및 실행](#설치-및-실행)
 -   [사용 방법](#사용-방법)
--   [예제 실행](#예제-실행)
 
 ## 프로젝트 소개
 
@@ -26,7 +25,7 @@
 1. Dart가 설치되어 있는지 확인합니다. 설치되어 있지 않다면 [Dart SDK 설치](https://dart.dev/get-dart)를 참고하세요.
 2. 이 저장소를 클론합니다.
     ```bash
-    git clone https://github.com/gimjh1120/my_shoppingmall
+    git clone https://github.com/your-username/console-shopping-mall.git
     cd console-shopping-mall
     ```
 3. 프로그램을 실행합니다.
@@ -35,6 +34,8 @@
     ```
 
 ## 사용 방법
+
+## 사용방법
 
 프로그램을 실행한 후, 기능을 선택하여 사용할 수 있습니다. 각 기능에 대한 설명은 아래와 같습니다.
 
