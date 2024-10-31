@@ -19,11 +19,11 @@ class CartItem {
 }
 
 List<Product> products = [
-  Product(productName: 'shirt', productPrice: 45000),
-  Product(productName: 'onepiece', productPrice: 30000),
-  Product(productName: 'short sleeved', productPrice: 35000),
-  Product(productName: 'short pants', productPrice: 38000),
-  Product(productName: 'socks', productPrice: 5000)
+  Product(productName: '셔츠', productPrice: 45000),
+  Product(productName: '원피스', productPrice: 30000),
+  Product(productName: '반팔', productPrice: 35000),
+  Product(productName: '반바지', productPrice: 38000),
+  Product(productName: '양말', productPrice: 5000)
 ];
 
 List<CartItem> cart = [];
