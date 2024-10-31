@@ -24,7 +24,7 @@
 1. Dart가 설치되어 있는지 확인합니다. 설치되어 있지 않다면 [Dart SDK 설치](https://dart.dev/get-dart)를 참고하세요.
 2. 이 저장소를 클론합니다.
    ```bash
-   git clone [https://github.com/your-username/console-shopping-mall.git](https://github.com/gimjh1120/my_shoppingmall)
+   git clone https://github.com/gimjh1120/my_shoppingmall
    cd console-shopping-mall
 3. 프로그램을 실행합니다.
    ```bash
