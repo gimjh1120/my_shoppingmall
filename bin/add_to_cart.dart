@@ -9,7 +9,7 @@ void addToCart() {
 
   //입력 값이 null이거나 빈 값일 경우
   if (input == null || input.isEmpty) {
-    print('올바른 상품명을 입력해 주세요.');
+    print('\n올바른 상품명을 입력해 주세요.');
     return;
   }
 
@@ -21,7 +21,7 @@ void addToCart() {
 
   //리스트에 없는 경우
   if (inputProduct.productName == 'null') {
-    print('해당 상품이 존재하지 않습니다.');
+    print('\n해당 상품이 존재하지 않습니다.');
     return;
   }
 
@@ -32,7 +32,7 @@ void addToCart() {
 
   //입력한 값이 null이거나 빈 값인 경우
   if (inputQuantity == null || inputQuantity.isEmpty) {
-    print('입력값이 올바르지 않아요!');
+    print('\n입력값이 올바르지 않아요!');
     return;
   }
 
@@ -43,7 +43,7 @@ void addToCart() {
 
   //입력한 값이 0보다 작거나 같은 경우
   if (intQuantity <= 0) {
-    print('올바른 수량을 입력해 주세요.');
+    print('\n올바른 수량을 입력해 주세요.');
     return;
   }
 
@@ -62,5 +62,5 @@ void addToCart() {
     cart.add(CartItem(product: inputProduct, quantity: intQuantity));
   }
 
-  print('장바구니에 ${inputProduct.productName} $intQuantity개 추가되었습니다.');
+  print('\n장바구니에 ${inputProduct.productName} $intQuantity개 추가되었습니다.');
 }

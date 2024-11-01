@@ -41,5 +41,5 @@ void showTotal() {
     total += productPrice;
   }
   print('\n***************************\n');
-  print('총 금액은 $total원 입니다.');
+  print('\n총 금액은 $total원 입니다.');
 }
